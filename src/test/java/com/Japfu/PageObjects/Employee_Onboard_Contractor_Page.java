@@ -169,9 +169,11 @@ public class Employee_Onboard_Contractor_Page extends CommonPageCICA{
 	}
 
 	public void EmployeeInvalidInformation() {
-
+		
 		clickElement(employee);
+		sleep(1);
 		clickElement(addEmployee);
+		sleep(1);
 		clickElement(onboard);
 
 		//basic details

@@ -6,7 +6,7 @@
 			class-name="com.codetru.listeners.AnnotationTransformer" />
 	</listeners>
  
- 	<!-- <test name="Admin LoginTest">
+ 	 <test name="Admin LoginTest">
 		<classes>
 			<class name="com.Japfu.testcases.LaunchBrowserTest" />
 			<class name="com.Japfu.testcases.AdminLoginTest" />
@@ -32,7 +32,7 @@
 		<classes>
 			<class name="com.Japfu.testcases.SignUp_ORG_Test" />
 		</classes>
-	</test>-->
+	</test>
 
 	 <test name="Onboard an Employee (Consultant)">
 		<classes>
