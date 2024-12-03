@@ -2851,36 +2851,36 @@ public class WebUI {
 	 * @param by an element of object type By
 	 */
 	@Step("Click on the element {0}")
-//	public static void clickElement(By by) {
-//
-//		waitForElementVisible(by).click();
-//		LogUtils.info("Clicked on the element " + by.toString());
-//
-//		if (ExtentTestManager.getExtentTest() != null) {
-//			ExtentReportManager.pass("Clicked on the element " + by.toString());
-//		}
-//		AllureManager.saveTextLog("Clicked on the element " + by.toString());
-//
-//		addScreenshotToReport(Thread.currentThread().getStackTrace()[1].getMethodName() + "_" + DateUtils.getCurrentDateTime());
-//
-//	}
 	public static void clickElement(By by) {
-	    WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(60));
-	    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(by));
-	    element.click();
-	    LogUtils.info("Clicked on the element: " + by);
 
-	    // Add to Extent Report if the test is being tracked
-	    if (ExtentTestManager.getExtentTest() != null) {
-	        ExtentReportManager.pass("Clicked on the element: " + by);
-	    }
+		waitForElementVisible(by).click();
+		LogUtils.info("Clicked on the element " + by.toString());
 
-	    // Log in Allure
-	    AllureManager.saveTextLog("Clicked on the element: " + by);
+		if (ExtentTestManager.getExtentTest() != null) {
+			ExtentReportManager.pass("Clicked on the element " + by.toString());
+		}
+		AllureManager.saveTextLog("Clicked on the element " + by.toString());
 
-	    // Add a screenshot to the report
-	    addScreenshotToReport("Clicked_" + DateUtils.getCurrentDateTime());
+		addScreenshotToReport(Thread.currentThread().getStackTrace()[1].getMethodName() + "_" + DateUtils.getCurrentDateTime());
+
 	}
+//	public static void clickElement(By by) {
+//	    WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(60));
+//	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//	    element.click();
+//	    LogUtils.info("Clicked on the element: " + by);
+//
+//	    // Add to Extent Report if the test is being tracked
+//	    if (ExtentTestManager.getExtentTest() != null) {
+//	        ExtentReportManager.pass("Clicked on the element: " + by);
+//	    }
+//
+//	    // Log in Allure
+//	    AllureManager.saveTextLog("Clicked on the element: " + by);
+//
+//	    // Add a screenshot to the report
+//	    addScreenshotToReport("Clicked_" + DateUtils.getCurrentDateTime());
+//	}
 
 	
 

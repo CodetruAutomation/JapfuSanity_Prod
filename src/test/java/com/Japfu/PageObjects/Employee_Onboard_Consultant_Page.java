@@ -131,7 +131,7 @@ public class Employee_Onboard_Consultant_Page extends CommonPageCICA{
 	}
 
 	public void EmployeeInvalidInformation() {
-
+		sleep(1);
 		clickElement(employee);
 		sleep(1);
 		clickElement(addEmployee);
