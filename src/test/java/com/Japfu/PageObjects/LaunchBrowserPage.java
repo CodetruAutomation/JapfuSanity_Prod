@@ -9,7 +9,7 @@ public class LaunchBrowserPage extends CommonPageCICA {
 
 	public void Launch_Url() {
 		openWebsite(FrameworkConstants.URL_CMS_USER);
-		waitForPageLoaded();
+	//	waitForPageLoaded();
 		
 	}
 
