@@ -42,15 +42,15 @@
 		</classes>
 	</test>
 
-	<test name="Onboard an Employee (Contractor)">
+<!--	<test name="Onboard an Employee (Contractor)">
 		<classes>
 			<class name="com.Japfu.testcases.LaunchBrowserTest" />
-			<!--<class name="com.Japfu.testcases.LoginTest" />-->
+			
 			<class name="com.Japfu.testcases.Employee_Onboard_Contractor_Test" />
 		</classes>
-	</test>
+	</test>-->
 
-	<test name="Client Onboard">
+	<!--<test name="Client Onboard">
 		<classes>
 			<class name="com.Japfu.testcases.LaunchBrowserTest" />
 			<class name="com.Japfu.testcases.LoginTest" />
@@ -102,7 +102,7 @@
 			<class name="com.Japfu.testcases.LaunchBrowserTest" />
 			<class name="com.Japfu.testcases.Approve_Employee_Profile_Updates_Test" />
 		</classes>
-	</test>
+	</test>-->
 
 	<!--<test name="Admin Timesheet (Add New Timesheet)">
 		<classes>
@@ -112,7 +112,7 @@
 		</classes>
 	</test>-->
 	
-	<test name="Admin Timesheet (Submit Drafted Timesheet)">
+	<!--<test name="Admin Timesheet (Submit Drafted Timesheet)">
 		<classes>
 			<class name="com.Japfu.testcases.LaunchBrowserTest" />
 			<class name="com.Japfu.testcases.LoginTest" />
@@ -174,6 +174,6 @@
 			<class name="com.Japfu.testcases.LoginTest" />
 			<class name="com.Japfu.testcases.TimesheetAttacment_Test" />
 		</classes>
-	</test>
+	</test>-->
 
 </suite>

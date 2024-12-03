@@ -2866,7 +2866,7 @@ public class WebUI {
 //	}
 	public static void clickElement(By by) {
 	    WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(60));
-	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+	    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(by));
 	    element.click();
 	    LogUtils.info("Clicked on the element: " + by);
 
