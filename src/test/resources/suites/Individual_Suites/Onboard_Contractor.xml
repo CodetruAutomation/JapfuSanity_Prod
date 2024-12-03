@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Employee Onboard(Contractor)" thread-count="10" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.codetru.listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Codetru Organization">
+		<classes>
+		
+			<class name="com.Japfu.testcases.LaunchBrowserTest" />
+			<class name="com.Japfu.testcases.LoginTest" />
+			<class name="com.Japfu.testcases.Employee_Onboard_Contractor_Test" /> 
+
+		</classes>
+	</test>
+</suite>

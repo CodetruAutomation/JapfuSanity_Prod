@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Combined Test Suite">
+    <suite-files>
+        <suite-file path="AdminLogin.xml"/>
+        <suite-file path="BasicLogin.xml"/>
+        <suite-file path="Client_Onboard.xml"/>
+        <suite-file path="Employee_Edit_ExistingProfile.xml"/>
+        <suite-file path="EndClient_Onboard.xml"/>
+        <suite-file path="MiviResponse.xml"/>
+        <suite-file path="NewPlacement.xml"/>
+        <suite-file path="Non_Admin_Login.xml"/>
+        <suite-file path="Onboard_Consultant.xml"/>
+        <suite-file path="Onboard_Contractor.xml"/>
+        <suite-file path="Signup_OrgConfig.xml"/>
+        <suite-file path="Timesheet_Admin_Approve_Submit_Reject.xml"/>
+        <suite-file path="Timesheet_AI.xml"/>
+        <suite-file path="Timesheets_Attachment.xml"/>
+        <suite-file path="Vendor_Onboard.xml"/>
+    </suite-files>
+</suite>

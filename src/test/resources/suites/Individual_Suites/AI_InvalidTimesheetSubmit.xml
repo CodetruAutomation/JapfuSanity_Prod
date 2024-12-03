@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AI Timesheet(AI Timesheet Submit, Approve, Reject)" thread-count="10" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.codetru.listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Codetru Organization">
+
+		<classes>
+
+			<class name="com.Japfu.testcases.LaunchBrowserTest" />
+			<class name="com.Japfu.testcases.LoginTest" />
+			<class name="com.Japfu.testcases.AI_InvalidTimesheetSubmit_Test" />
+			
+		</classes>
+
+	</test>
+
+
+</suite>
+<!-- -->
