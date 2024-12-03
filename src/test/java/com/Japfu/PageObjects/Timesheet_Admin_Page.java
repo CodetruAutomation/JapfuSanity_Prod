@@ -146,7 +146,8 @@ public class Timesheet_Admin_Page {
 		sleep(2);
 		moveToElement(submitButton);
 		clickElement(submitButton);
-		sleep(1);
+		sleep(2);
+		verifyElementDisplayed(doneBtn);
 		clickElement(doneBtn);
 
 	}
